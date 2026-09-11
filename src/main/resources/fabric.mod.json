@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "off-void-damage",
+  "version": "${version}",
+  "name": "Off Void Damage",
+  "description": "Disables only void damage.",
+  "authors": ["Ben"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.offvoidamage.OffVoidDamage"
+    ]
+  },
+  "mixins": [
+    "offvoidamage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
